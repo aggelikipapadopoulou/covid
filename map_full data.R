@@ -31,4 +31,4 @@ getPvalueHyper <- function(cont){
   phyper(q=cont$males-1, m=total.males, n=total.females, k = cont$males+cont$females, lower.tail = FALSE)
 }
 
-getPvalueHyper(as)
+pvalue <- getPvalueHyper(as)
