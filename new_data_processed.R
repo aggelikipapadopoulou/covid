@@ -219,7 +219,10 @@ nrow(data_sum_dag)
 data_sum_dag <- data_sum_dag[1:3408,]
 dim(data_sum_dag)
 
-
+#split ta dates, gia na xw mono month 
+function(x){
+  
+}
 
 
 
